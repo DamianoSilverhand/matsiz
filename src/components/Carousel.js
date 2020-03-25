@@ -1,5 +1,5 @@
 import React from 'react';
-import { img01, img02, img03, img04, img05, img06, img07 } from '../assets';
+import { img01, img02, img03, img04, img05, img06, img07, img08, img09, img10, img11, img12 } from '../assets';
 
 function Carousel(){
 	return(
@@ -9,13 +9,18 @@ function Carousel(){
             <div id="carouselExampleIndicators"  className="carousel slide" data-ride="carousel">
 			  <ol className="carousel-indicators">
 			    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
-		        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+	     	            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 			    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 			    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
 			    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="9" ></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
 			  </ol>
               <div className="carousel-inner">
                 <div className=" imgcar carousel-item active" >
@@ -36,11 +41,26 @@ function Carousel(){
                <div className="carousel-item" >
                   <img src={img06} className="imgcar d-block w-100" alt="pzi maiden2" />
                 </div>
-<div className="carousel-item" >
+                <div className="carousel-item" >
                   <img src={img02} className="imgcar d-block w-100" alt="pzi maiden2" />
                 </div>
                <div className="carousel-item" >
                   <img src={img07} className="imgcar d-block w-100" alt="pzi maiden2" />
+                </div>
+               <div className="carousel-item" >
+                  <img src={img08} className="imgcar d-block w-100" alt="pzi maiden2" />
+                </div>
+                <div className="carousel-item" >
+                  <img src={img09} className="imgcar d-block w-100" alt="pzi maiden2" />
+                </div>
+               <div className="carousel-item" >
+                  <img src={img10} className="imgcar d-block w-100" alt="pzi maiden2" />
+                </div>
+                <div className="carousel-item" >
+                  <img src={img11} className="imgcar d-block w-100" alt="pzi maiden2" />
+                </div>
+               <div className="carousel-item" >
+                  <img src={img12} className="imgcar d-block w-100" alt="pzi maiden2" />
                 </div>
               </div>          
             </div>        
