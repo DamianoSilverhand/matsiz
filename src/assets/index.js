@@ -1,0 +1,8 @@
+export { default as img01 } from './car1.jpg'
+export { default as img02 } from './car2.jpg'
+export { default as img03 } from './car3.jpg'
+export { default as img04 } from './car4.jpg'
+export { default as img05 } from './car5.jpg'
+export { default as img06 } from './car6.jpg'
+export { default as img07 } from './car7.jpg'
+export { default as logo } from './logo.jpg'

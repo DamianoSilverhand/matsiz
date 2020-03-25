@@ -1,38 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Cagliostro|Courgette|Dosis|Lato');
+
+@media screen and (max-width: 970px){
+  .navbar {
+    background-color: #2DE8C1;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 971px){                  
+.navbar {
+    background-color: #2DE8C1;
+    height: 65px;
+    color: black;
+  }                                                  
+}
+
+.nav-link {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 47px;
+}
+
+.nav-link:hover {
+  color: #227167;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 47px;
+}
+imgcar {
+	width: auto;
+	  height: 100px;
+	  max-height: 100px;
+}
+.navbar-brand {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: left;
+}
+
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.page-footer {
+  background-color: #1c2331;
+  max-width: 100%;
+  color: #ffffff;
+  font-family: 'Muli', sans-serif;
+}
+
+@media screen and (min-width: 771px){
+  .align{
+    text-align: justify;
+    color: #ffffff;
+  }
+}
+
+
+@media screen and (max-width: 770px){
+  .align{
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 771px){
+  .vertical {
+    border: none;
+    border-left: 1px solid #47525e;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .vertical{
+    width: 200px;
+  }
+}
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
