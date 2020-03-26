@@ -1,9 +1,16 @@
 import React from 'react';
+import Navbar from './Navbar.js';
+import Footer from './Footer.js';
 import { img01, img02, img03, img04, img05, img06, img07, img08, img09, img10, img11, img12 } from '../assets';
 
 function Carousel(){
+let backG = {
+        backgroundImage: "url(" + img09 + ")",
+
+};
 	return(
-		    <div className="container-fluid">
+		    <div className="container" style={backG}>
+		    <Navbar/>
         <div className="row">
           <div className="col mb-4 mb-lg-0">          
             <div id="carouselExampleIndicators"  className="carousel slide" data-ride="carousel">
@@ -66,6 +73,7 @@ function Carousel(){
             </div>        
           </div>
         </div>
+        <Footer/>
       </div>
 )
 }

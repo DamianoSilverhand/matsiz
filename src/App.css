@@ -43,10 +43,14 @@ imgcar {
   line-height: 33px;
   text-align: left;
 }
-
+
 
 body {
   font-family: 'Lato', sans-serif;
+}
+
+.blaze{
+	background-color:#FFE5B4;
 }
 
 .page-footer {
@@ -67,7 +71,6 @@ body {
 @media screen and (max-width: 770px){
   .align{
     text-align: center;
-    color: #ffffff;
   }
 }
 
@@ -85,6 +88,27 @@ body {
   }
 }
 
+h3{
+	text-align : center;
+	color :blue;
+	
+}
+
+hr { 
+
+            position: relative; 
+
+            top: 20px; 
+
+            border: none; 
+
+            height: 12px; 
+
+            background: black; 
+
+            margin-bottom: 50px; 
+
+        }
 
 .App {
   text-align: center;

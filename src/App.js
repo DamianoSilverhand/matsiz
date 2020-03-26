@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom'
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Carousel from './components/Carousel.js';
@@ -7,12 +8,10 @@ import Wishes from './components/Wishes.js';
 
 function App() {
   return (
-    <div className="Container">
-	<Navbar/>
-	<Carousel/>
-	<Wishes/>
-	<Footer/>
-    </div>
+  <Switch>
+        <Route exact path="/" component={Carousel} />
+        <Route path="/wishes" component={Wishes} />
+      </Switch>
   );
 }
 
